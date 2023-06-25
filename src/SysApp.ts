@@ -1,7 +1,6 @@
 import {JetApp,EmptyRouter} from "webix-jet";
 import TopView from "./views/TopView";
 import MenuView from "./views/MenuView";
-import "./styles/system.css";
 
 export default class SysApp extends JetApp{
     constructor(config:any){
